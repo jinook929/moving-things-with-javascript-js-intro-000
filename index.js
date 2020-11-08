@@ -1,3 +1,4 @@
+alert('hi');
 const app = "I don't do much.";
 
 let dodger = document.getElementById('dodger');
@@ -20,7 +21,7 @@ function moveDodgerRight() {
   }
 }
 
-
+$( document ).ready(function() {
   document.addEventListener('keydown', e => {
     if (e.which === 37) {
       moveDodgerLeft();
@@ -28,5 +29,5 @@ function moveDodgerRight() {
       moveDodgerRight();
     }
   });
-
+});
 
