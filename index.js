@@ -20,7 +20,7 @@ function moveDodgerRight() {
   }
 }
 
-// $( document ).ready(function() {
+$( document ).ready(function() {
   document.addEventListener('keydown', e => {
     if (e.which === 37) {
       moveDodgerLeft();
@@ -28,4 +28,4 @@ function moveDodgerRight() {
       moveDodgerRight();
     }
   });
-// });
+});
