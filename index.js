@@ -1,4 +1,5 @@
-const app = "I don't do much."
+alert('hi');
+const app = "I don't do much.";
 
 let dodger = document.getElementById('dodger');
 
@@ -30,4 +31,3 @@ $( document ).ready(function() {
   });
 });
 
-alert('hi')
